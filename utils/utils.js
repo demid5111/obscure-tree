@@ -1,9 +1,4 @@
 define('utils', function(require, exports, module) {
-    //If "a" has used exports, then we have a real
-    //object reference here. However, we cannot use
-    //any of "a"'s properties until after "b" returns a value.
-    // var a = require("a");
-
     exports._isNameCorrect = _isNameCorrect;
     exports.search = search;
 
