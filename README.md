@@ -4,8 +4,8 @@ This is the sample project, that solves tree obscuring problem according to pre-
 In other words it is needed to build a new subtree of the original tree according to the search string. 
 
 You can use it as a reference for a simple JS application, which uses:
-	- requirejs (for working with modules)
-	- Treant.js (for visualizing the tree)
+- requirejs (for working with modules)
+- Treant.js (for visualizing the tree)
 
 Code is written in ES6, tested in Chrome (59+) only.
 Tests are written with Jasmine/Karma.
