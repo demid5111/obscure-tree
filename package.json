@@ -1,0 +1,23 @@
+{
+  "name": "cleanup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": " node node_modules/karma/bin/karma start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "requirejs": "^2.3.3",
+    "treant-js": "git+https://github.com/fperucic/treant-js.git#d5469f0f9e5aa56a58e08de007af24440e5aa432"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.6.2",
+    "karma": "^1.7.0",
+    "karma-chrome-launcher": "^2.1.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-requirejs": "^1.1.0"
+  }
+}
