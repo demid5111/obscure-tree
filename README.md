@@ -21,11 +21,11 @@ Use Node 6.10
 
 These rules are also placed in utils/utils.js.
 
-	- Original tree is not modified
-    - The 'Node matches the search' Term means that Node's name contains the 'search' as a substring (case insensitive)
-    - Node is included in the resulting subtree if Node, one of its ancestors, or one of its descendants matches the search
-    - If Node matches the search, its matched property must be set to true, otherwise false
-    - If at least one descendant of the Node matches the search, Node's expanded property must be set to true, otherwise false.
+- Original tree is not modified
+- The 'Node matches the search' Term means that Node's name contains the 'search' as a substring (case insensitive)
+- Node is included in the resulting subtree if Node, one of its ancestors, or one of its descendants matches the search
+- If Node matches the search, its matched property must be set to true, otherwise false
+- If at least one descendant of the Node matches the search, Node's expanded property must be set to true, otherwise false.
 
 ### For contributors
 
